@@ -16,7 +16,7 @@ Welcome to the Tours and Travels Website repository! This project is a fully res
 
 ## Installation 
 ### 1. Clone the repository:
-        git clone https://github.com/your-username/tours-and-travels.git
+        git clone https://github.com/heenadhanure/tours-and-travels-website.git
 ### 2. Open the index.html file in your browser to view the website.
 
 ## License
