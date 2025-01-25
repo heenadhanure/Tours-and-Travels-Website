@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Tours and Travels</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+     
+        <header>
+            <a href="a" class="logo"><span>T</span>ash <span>T</span>ravel</a>
+            <nav class="navbar">
+               <a href="index.html">Home</a>
+                <a href="book.html">Book</a>
+                <a href="hotel.html">Hotels</a>
+                <a href="package.html">Packages</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="reviews.html">Review</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+
+        <!-- login form container -->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action="connection.php" method="post">
+                <h3>Login</h3>
+                <label for="email">email</label>
+                <input type="email" class="box" placeholder="enter your email" name="email">
+                <label for="password">password</label>
+                <input type="password" class="box" placeholder="enter your password" name="password">
+                <input type="submit" name="save" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label  for="remember">Remember Me</label>
+                <p>forget password? <a href="#">Click Here</a></p>
+                <p>Don't have any Account? <a href="#">Register Now</a></p>
+            </form>
+        </div>
+
+        <!-- header section ends-->
+
+        <section class="review" id="review">
+
+             <div class="swiper mySwiper review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="box">
+                            <img src="..\images\heena.jpeg" alt="">
+                            <h3>Dhanure Heena</h3>
+                            <p>The experience was great in doing everything online. We had some minor hiccups but Shameem was extremely quick to rectify. Otherwise everything was scheduled and went as per plan. I'd use the service again for sure.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                              
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="box">
+                            <img src="..\images\heroine.jpeg" alt="">
+                            <h3>Kale Anjali</h3>
+                            <p>Fantastic getaway. Very good communication. Friendly and Easy to deal with.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                              
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="box">
+                            <img src="..\images\tanu.jpg" alt="">
+                            <h3>Bhutte Tanuja</h3>
+                            <p>The experience was great in doing everything online. We had some minor hiccups but Shameem was extremely quick to rectify. Otherwise everything was scheduled and went as per plan. I'd use the service again for sure.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                              
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="box">
+                            <img src="..\images\shivani.jpeg"alt="">
+                            <h3>Salunke Shivani</h3>
+                            <p>Package was fantastic value, documents were sent to us in a timely manner and our holiday went off without a hitch.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                              
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="box">
+                            <img src="..\images\vaishu.jpg" alt="">
+                            <h3>Deshmukh Vaishnavi</h3>
+                            <p>Fantastic getaway. Very good communication. Friendly and Easy to deal with.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                              
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </section>
+
+         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Tours and Travels</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+     
+        <header>
+            <a href="a" class="logo"><span>T</span>ash <span>T</span>ravel</a>
+            <nav class="navbar">
+               <a href="index.html">Home</a>
+                <a href="book.html">Book</a>
+                <a href="hotel.html">Hotels</a>
+                <a href="package.html">Packages</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="reviews.html">Review</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+
+        <!-- login form container -->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action="connection.php" method="post">
+                <h3>Login</h3>
+                <label for="email">email</label>
+                <input type="email" class="box" placeholder="enter your email" name="email">
+                <label for="password">password</label>
+                <input type="password" class="box" placeholder="enter your password" name="password">
+                <input type="submit" name="save" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label  for="remember">Remember Me</label>
+                <p>forget password? <a href="#">Click Here</a></p>
+                <p>Don't have any Account? <a href="#">Register Now</a></p>
+            </form>
+        </div>
+
+        <!-- header section ends-->
+
+         <section class="services" id="services">
+
+            <div class="box-container">
+                
+               <div class="box">
+                   <i class="fas fa-hotel"></i>
+                   <h3>affordable hotels</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+               </div>
+               
+               <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+              </div>
+
+              <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+              </div>
+
+              <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+              </div>
+
+              <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+              </div>
+
+              <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Inventor commodi earum,quis voluptate exercitationem ut minima itaque ipsum corrupti</p>
+              </div>
+
+            </div>
+
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
