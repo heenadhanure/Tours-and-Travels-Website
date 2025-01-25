@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Tours and Travels</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+     
+        <header>
+            <a href="a" class="logo"><span>T</span>ash <span>T</span>ravel</a>
+            <nav class="navbar">
+               <a href="home.html">Home</a>
+                <a href="book.html">Book</a>
+                <a href="hotel.html">Hotels</a>
+                <a href="package.html">Packages</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="reviews.html">Review</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+
+        <!-- login form container -->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action="connection.php" method="post">
+                <h3>Login</h3>
+                <label for="email">email</label>
+                <input type="email" class="box" placeholder="enter your email" name="email">
+                <label for="password">password</label>
+                <input type="password" class="box" placeholder="enter your password" name="password">
+                <input type="submit" name="save" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label  for="remember">Remember Me</label>
+                <p>forget password? <a href="#">Click Here</a></p>
+                <p>Don't have any Account? <a href="#">Register Now</a></p>
+            </form>
+        </div>
+
+        <!-- header section ends-->
+
+        <section class="hotels" id="hotels">
+
+            <div class="row">
+                
+                <div class="image">
+                    <img src="..\images\hotel mumbai.jpg" alt="">
+                 </div>
+            
+                <form action="">
+                   <div class="inputBox">
+                      <h3>how many</h3>
+                      <input type="number" placeholder="number of guests">
+                   </div>
+                   <div class="inputBox">
+                      <h3>check-in-date</h3>
+                      <input type="date">
+                   </div>
+                   <div class="inputBox">
+                      <h3>check-out-date</h3>
+                      <input type="date">
+                   </div>
+                   <input type="submit" class="btn" value="Find Hotels">
+                </form>
+           
+            </div>
+
+            <div class="col">
+                
+                <div class="image">
+                    <img src="..\images\hotel.jpg" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="..\images\hotel.webp" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="..\images\goa hotel.jpg" alt="">
+                </div>
+
+            </div>      
+
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
